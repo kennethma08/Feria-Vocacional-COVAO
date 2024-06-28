@@ -1,0 +1,228 @@
+body{
+  height:100vh;
+  background: rgb(0,177,255);
+  background: linear-gradient(135deg, rgba(0,177,255,1) 0%, rgba(0,95,252,1) 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+#contenedor{
+  background: rgb(0,177,255);
+  background: linear-gradient(135deg, rgba(0,177,255,1) 0%, rgba(0,95,252,1) 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.letra{
+  color:black;
+}
+
+.TitleMiCita{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+
+.ModalQRContent{
+  border-radius: 25px;
+  background-color: white;
+  height: 500px;
+  width: 370px;
+}
+
+.ModalCancelarCitaContent{
+  border-radius: 25px;
+  background-color: white;
+  height: 300px;
+  width: 650px;
+}
+
+.ModalEditarCitaContent{
+  border-radius: 25px;
+  background-color: white;
+  height: 700px;
+  width: 800px;;
+}
+
+.TitleModalEditarCita{
+  font-family: 'Poppins', sans-serif;
+  padding-left: 10px;
+  padding-top: 25px;
+  padding-bottom:15px;
+  font-size:30px;
+  font-weight: bold;
+}
+
+.TitleModalMiQR{
+  font-family: 'Poppins', sans-serif;
+  padding-left: 15px;
+  padding-top: 25px;
+  padding-bottom:5px;
+  font-size:35px;
+  font-weight: bold;
+}
+
+.TitleModalCancelarCita{
+  font-family: 'Poppins', sans-serif;
+  padding-left: 10px;
+  padding-top: 25px;
+  padding-bottom:15px;
+  font-size:30px;
+  font-weight: bold;
+}
+
+.ParrafoModal{
+ font-size: 18px;
+ padding-bottom: 300px;
+ padding-top: 25px;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+.ParrafoModalEditarCita{
+  font-size: 18px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color:black;
+}
+
+.ParrafoModalCancelarCita{
+  font-size: 18px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color:black;
+}
+
+.Titulos{
+  font-family: 'Poppins', sans-serif;
+  color:black;
+  font-size: 32px;
+}
+
+.ParrafoInformacionAcompanantes{
+  font-family: 'Poppins', sans-serif;
+  color:black;
+  font-size:20px;
+  padding-top: 85px;
+}
+
+.DivPrincipal{
+  background-color: rgb(255,255,255,.7);
+  border-radius: 25px;
+  box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.3);
+  height:530px;
+  width:420px;
+}
+
+.DivSecundario{
+  width: 1px;
+  height:50px;
+}
+
+.ParrafoInformacion{
+  font-size: 150%;
+  color:black;
+  padding-top: 45px;
+}
+
+.ButtonVolverQR{
+  color: white;
+  background-color: #00A1E6;
+  font-size: 17px;;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+  transition: .5s;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.ButtonAceptarCancelacion{
+  color: white;
+  background-color: #00A1E6;
+  font-size: 17px;;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+  transition: .5s;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.ButtonCancelarCancelacionCita{
+  color: white;
+  background-color: #FE7979;
+  font-size: 17px;;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+  transition: .5s;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.ButtonCeleste{
+  color: white;
+  background-color: #00A1E6;
+  font-size: 17px;;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+  transition: .5s;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ButtonCancelar{
+  color: white;
+  background-color:#FF1B1B;
+  font-size: 125%;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3);
+  text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+  transition: .5s;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top:10px; ;
+  padding-bottom: 10px;
+}
+
+.ButtonAceptarCancelacion:hover{
+  background-color: #2B7AAF;
+}
+
+.ButtonCancelarCancelacionCita:hover{
+  background-color: #C21539;
+}
+
+.ButtonCancelar:hover{
+  background-color: #C21539;
+}
+
+.ButtonCeleste:hover{
+  background-color: #2B7AAF;
+}
+.ButtonVolverQR:hover{
+  background-color: #2B7AAF;
+}

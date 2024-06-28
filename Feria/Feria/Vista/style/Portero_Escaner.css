@@ -1,0 +1,56 @@
+/*FUENTE DE LETRA*/
+@font-face {
+    font-family: 'AvenirNextCyr-Bold.ttf';
+        src: url('../fuentes/AvenirNextCyr-Bold.ttf') format('truetype');
+}
+body{
+    background: rgb(0,177,255);
+    background: linear-gradient(135deg, rgba(0,177,255,1) 0%, rgba(0,95,252,1) 100%);
+}
+
+.container-fluid{
+    min-height: 100vh;
+}
+/*INICIO MODAL*/
+.BotonCerrarSesion{
+    color: white;
+    border-radius: 20px;
+    background-color: #ff4444; 
+    border: none;
+    font-size: 20px;
+}
+.BotonCancelarModal{
+    color: white;
+    border-radius: 20px;
+    background-color: #ff4444;
+    border: none;
+}
+.BotonAceptarModal{
+    color: white;
+    border-radius: 20px;
+    background-color: #00A1E6;
+    border: none;
+}
+/*Radio del cuerpo del modal*/
+.modal-content{
+    border-radius: 20px;
+}
+
+
+.Box{
+  width: auto;
+  height: 600px;
+}
+
+.Box img{
+    width: 100%;
+    height: auto;
+  }
+
+@supports(object-fit: cover){
+    .Box img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
